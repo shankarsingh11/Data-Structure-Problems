@@ -12,9 +12,8 @@ public class MergeSort {
 		 mergesortInPlace(arr,s,mid);
 		 mergesortInPlace(arr,mid,e);
 		
-		mergeInPlace(arr,s,mid,e);
+		 mergeInPlace(arr,s,mid,e);
 	}
-	
 	public static void mergeInPlace(int[] arr,int s,int m,int e)
 	{
 		int[] mix = new int[e-s];
